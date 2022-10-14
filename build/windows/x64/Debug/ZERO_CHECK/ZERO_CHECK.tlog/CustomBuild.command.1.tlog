@@ -1,0 +1,10 @@
+^D:\USER\DESKTOP\FLUTHER\SOLARES\BUILD\WINDOWS\CMAKEFILES\EC74342618E5081431E717427B4EC04E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/User/Desktop/fluther/solares/windows -BD:/User/Desktop/fluther/solares/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/User/Desktop/fluther/solares/build/windows/solares.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

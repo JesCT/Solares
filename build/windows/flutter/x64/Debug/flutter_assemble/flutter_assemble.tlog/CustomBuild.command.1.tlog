@@ -1,0 +1,28 @@
+^D:\USER\DESKTOP\FLUTHER\SOLARES\BUILD\WINDOWS\CMAKEFILES\B821ECA26197B26A65CE68E0F5CE9396\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=D:\User\Desktop\fluther\solares FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=D:\User\Desktop\fluther\solares\windows\flutter\ephemeral PROJECT_DIR=D:\User\Desktop\fluther\solares FLUTTER_TARGET=D:\User\Desktop\fluther\solares\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\User\Desktop\fluther\solares\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\USER\DESKTOP\FLUTHER\SOLARES\BUILD\WINDOWS\CMAKEFILES\D089E9ABA6DBFAE0B15BF892D3BC6FCB\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\USER\DESKTOP\FLUTHER\SOLARES\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/User/Desktop/fluther/solares/windows -BD:/User/Desktop/fluther/solares/build/windows --check-stamp-file D:/User/Desktop/fluther/solares/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,8 @@
+D:/User/Desktop/fluther/solares/build/windows/runner/Debug/data/icudtl.dat
+D:/User/Desktop/fluther/solares/build/windows/runner/Debug/flutter_windows.dll
+D:/User/Desktop/fluther/solares/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+D:/User/Desktop/fluther/solares/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+D:/User/Desktop/fluther/solares/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/User/Desktop/fluther/solares/build/windows/runner/Debug/data/flutter_assets/NOTICES
+D:/User/Desktop/fluther/solares/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+D:/User/Desktop/fluther/solares/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

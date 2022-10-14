@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\User\Desktop\fluther\solares\build\windows\CMakeFiles\ec74342618e5081431e717427b4ec04e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4CA275E6-E10D-3E8C-9C59-B37CEB841DCB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
